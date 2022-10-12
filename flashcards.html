@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel='stylesheet' type='text/css' href='flashcards.css'>
   </head>
   <body>
-    <input id='checkbox' type='checkbox'>Korean &rarr; English</input>
     <p id='question'></p>
     <form id='form'>
-      <input id='answer' type='text'></input>
+      <input id='answer' type='text'>
       <button id='submit'>Submit</button>
     </form>
-    <p id='feedback'></p>
+    <p id='feedback'>Enter the translation in the box above.</p>
+    <label>
+      Korean &rarr; English
+      <input id='checkbox' type='checkbox'>
+    </label>
     <script src='list.js'></script>
     <script src='flashcards.js'></script>
   </body>
