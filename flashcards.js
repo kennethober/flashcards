@@ -33,8 +33,8 @@ const submit = (list, e) => {
   const input = answer.value
   const realAnswer = current[answerIdx]
   if (input === realAnswer) {
+    blink(feedback, 'Correct!')
     document.body.style.backgroundColor = pickOne(colors)
-    feedback.textContent = 'Correct!'
   } else {
     blink(feedback, `The answer was: ${realAnswer}`)
   }
