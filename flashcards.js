@@ -7,6 +7,8 @@ const question = document.getElementById('question')
 const answer = document.getElementById('answer')
 const form = document.getElementById('form')
 const feedback = document.getElementById('feedback')
+const colors = ['AliceBlue', 'Azure', 'Cornsilk', 'Gainsboro', 'HoneyDew', 'Lavender', 'LavenderBlush', 'LightCyan', 'LightGoldenRodYellow', 'LightGreen', 'LightPink', 'LightYellow', 'Linen', 'MintCream', 'MistyRose', 'OldLace', 'PaleGreen', 'PaleTurquoise', 'Pink', 'Plum', 'PowderBlue', 'Thistle']
+
 
 let questionIdx = 0
 let answerIdx = 1
@@ -14,8 +16,9 @@ let answerIdx = 1
 let current = null
 
 const blink = (elt, value, delay = 200) => {
-  elt.textContent = ''
-  setTimeout(() => elt.textContent = value, delay)
+  elt.style.visibility = 'hidden'
+  elt.textContent = value
+  setTimeout(() => elt.style.visibility = 'visible', delay)
 }
 
 const newQuestion = list => {
@@ -30,7 +33,8 @@ const submit = (list, e) => {
   const input = answer.value
   
   if (input === current[answerIdx]) {
-    feedback.textContent = 'Correct'
+    document.body.style.backgroundColor = pickOne(colors)
+    feedback.textContent = 'Correct!'
     newQuestion(list)
   } else {
     blink(feedback, 'Try again')
@@ -52,6 +56,7 @@ const initialize = list => {
   onCheckbox()
   checkbox.addEventListener('change', onCheckbox)
   form.addEventListener('submit', submit.bind(null, list))
+  answer.focus()
 }
 
 initialize(list)
