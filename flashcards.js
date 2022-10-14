@@ -25,6 +25,7 @@ const newQuestion = list => {
   answer.value = ''
   current = pickOne(list)
   blink(question, current[questionIdx])
+  answer.focus()
 }
 
 const submit = (list, e) => {
@@ -38,6 +39,7 @@ const submit = (list, e) => {
     newQuestion(list)
   } else {
     blink(feedback, 'Try again')
+    answer.focus()
   }
 }
 
@@ -56,7 +58,6 @@ const initialize = list => {
   onCheckbox()
   checkbox.addEventListener('change', onCheckbox)
   form.addEventListener('submit', submit.bind(null, list))
-  answer.focus()
 }
 
 initialize(list)
