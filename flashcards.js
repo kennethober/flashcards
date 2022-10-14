@@ -30,17 +30,15 @@ const newQuestion = list => {
 
 const submit = (list, e) => {
   e.preventDefault() // Block default form submission
-  
   const input = answer.value
-  
-  if (input === current[answerIdx]) {
+  const realAnswer = current[answerIdx]
+  if (input === realAnswer) {
     document.body.style.backgroundColor = pickOne(colors)
     feedback.textContent = 'Correct!'
-    newQuestion(list)
   } else {
-    blink(feedback, 'Try again')
-    answer.focus()
+    blink(feedback, `The answer was: ${realAnswer}`)
   }
+  newQuestion(list)
 }
 
 const onCheckbox = e => {
