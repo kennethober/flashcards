@@ -32,11 +32,11 @@ const submit = (list, e) => {
   e.preventDefault() // Block default form submission
   const input = answer.value
   const realAnswer = current[answerIdx]
-  if (input === realAnswer) {
+  if (input.toLowerCase() === realAnswer.toLowerCase()) {
     blink(feedback, 'Correct!')
     document.body.style.backgroundColor = pickOne(colors)
   } else {
-    blink(feedback, `The answer was: ${realAnswer}`)
+    blink(feedback, `The answer was: ${realAnswer.toLowerCase()}`)
   }
   newQuestion(list)
 }
