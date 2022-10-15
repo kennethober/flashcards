@@ -2,6 +2,8 @@
 //  If there's an apostrophe in an entry, surround it with double quotes, like this:
 //  ["Washing one's face", 'korean'],
 //
+//  When adding entries, be sure to make each entry end with a comma except for the last one
+//
 //  To deactivate a single line from the list below, precede it with '//', like this:
 //  // ['english', 'korean'],
 //
@@ -192,4 +194,17 @@ const list = [
   ['Worry, concern', '걱정'],
   ['Why', '왜'],
   ['Study', '공부']
+  /*
+  // Remember to add a comma to the entry above before adding more
+  ['Feeling', ''],
+  ['Calendar', ''],
+  ['Date', ''],
+  ['Shape', ''],
+  ['Down, below', ''],
+  ['Phone number', ''],
+  ['To forget', ''],
+  ['Fast, quickly', ''], 
+  ['Reservation', ''],
+  ['To depart', '']
+  */
 ]
