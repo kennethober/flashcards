@@ -7,11 +7,13 @@ const question = document.getElementById('question')
 const answer = document.getElementById('answer')
 const form = document.getElementById('form')
 const feedback = document.getElementById('feedback')
+const correctCount = document.getElementById('correctCount')
 const colors = ['AliceBlue', 'Azure', 'Cornsilk', 'Gainsboro', 'HoneyDew', 'Lavender', 'LavenderBlush', 'LightCyan', 'LightGoldenRodYellow', 'LightGreen', 'LightPink', 'LightYellow', 'Linen', 'MintCream', 'MistyRose', 'OldLace', 'PaleGreen', 'PaleTurquoise', 'Pink', 'Plum', 'PowderBlue', 'Thistle']
 
 
 let questionIdx = 0
 let answerIdx = 1
+let inARow = 0
 
 let current = null
 
@@ -22,6 +24,7 @@ const blink = (elt, value, delay = 200) => {
 }
 
 const newQuestion = list => {
+  blink(correctCount, inARow)
   answer.value = ''
   current = pickOne(list)
   blink(question, current[questionIdx])
@@ -33,9 +36,11 @@ const submit = (list, e) => {
   const input = answer.value
   const realAnswer = current[answerIdx]
   if (input.toLowerCase() === realAnswer.toLowerCase()) {
+    inARow++
     blink(feedback, 'Correct!')
     document.body.style.backgroundColor = pickOne(colors)
   } else {
+    inARow = 0
     blink(feedback, `The answer was: ${realAnswer.toLowerCase()}`)
   }
   newQuestion(list)
