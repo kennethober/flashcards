@@ -1,3 +1,3 @@
 # flashcards
 
-https://kennethober.github.io/flashcards/
+https://kennethober.github.io/kardz/
