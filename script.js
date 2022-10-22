@@ -1,20 +1,14 @@
-const pickOne = list => list[Math.floor(Math.random() * list.length)]
-
-const languageSwitch = () => {}
-
 const checkbox = document.getElementById('checkbox')
 const question = document.getElementById('question')
 const answer = document.getElementById('answer')
 const form = document.getElementById('form')
 const feedback = document.getElementById('feedback')
 const correctCount = document.getElementById('correctCount')
-const colors = ['AliceBlue', 'Azure', 'Cornsilk', 'Gainsboro', 'HoneyDew', 'Lavender', 'LavenderBlush', 'LightCyan', 'LightGoldenRodYellow', 'LightGreen', 'LightPink', 'LightYellow', 'Linen', 'MintCream', 'MistyRose', 'OldLace', 'PaleGreen', 'PaleTurquoise', 'Pink', 'Plum', 'PowderBlue', 'Thistle']
-
 
 let questionIdx = 0
 let answerIdx = 1
 let inARow = 0
-
+let currentIdx = 0
 let current = null
 
 const blink = (elt, value, delay = 200) => {
@@ -24,9 +18,10 @@ const blink = (elt, value, delay = 200) => {
 }
 
 const newQuestion = list => {
-  blink(correctCount, inARow)
+  blink(correctCount, `(${inARow})`)
   answer.value = ''
-  current = pickOne(list)
+  current = list[currentIdx]
+  currentIdx = (currentIdx + 1) % list.length
   blink(question, current[questionIdx])
   answer.focus()
 }
@@ -38,10 +33,10 @@ const submit = (list, e) => {
   if (input.toLowerCase() === realAnswer.toLowerCase()) {
     inARow++
     blink(feedback, 'Correct!')
-    document.body.style.backgroundColor = pickOne(colors)
+    document.body.style.backgroundColor = `hsl(${Math.floor((Math.random() * 360))} 100% 90%)`
   } else {
     inARow = 0
-    blink(feedback, `The answer was: ${realAnswer.toLowerCase()}`)
+    blink(feedback, `Answer: ${realAnswer.toLowerCase()}`)
   }
   newQuestion(list)
 }
@@ -58,6 +53,7 @@ const onCheckbox = e => {
 }
 
 const initialize = list => {
+  list.sort(() => (Math.random() * 2) - 1)
   onCheckbox()
   checkbox.addEventListener('change', onCheckbox)
   form.addEventListener('submit', submit.bind(null, list))
