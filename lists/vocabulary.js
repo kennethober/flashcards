@@ -1,6 +1,3 @@
-// Name when not in use:
-// vocabulary.js
-
 //  Notes
 //  If there's an apostrophe in an entry, surround it with double quotes, like this:
 //  ["Washing one's face", 'korean'],
