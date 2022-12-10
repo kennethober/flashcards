@@ -23,12 +23,10 @@ const blink = (elt, value, delay = 200) => {
 const chooseRandom = list => list[Math.floor((Math.random() * list.length))]
 
 const newQuestion = list => {
-  console.log(wrongSet) // TODO deleteme
   blink(correctCount, `(${inARow})`)
   answer.value = ''
   // With some probability, choose from the list of previously wrong-answered ones instead
   if (wrongSet.size > 0 && Math.random() < wrongListProbability) {
-    console.log('choosing from wrong set') // TODO deleteme
     current = chooseRandom(Array.from(wrongSet))
   } else {
     current = list[currentIdx]
