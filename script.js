@@ -5,6 +5,9 @@ const form = document.getElementById('form')
 const feedback = document.getElementById('feedback')
 const correctCount = document.getElementById('correctCount')
 
+const wrongListProbability = 0.25
+const wrongSet = new Set()
+
 let questionIdx = 0
 let answerIdx = 1
 let inARow = 0
@@ -17,11 +20,20 @@ const blink = (elt, value, delay = 200) => {
   setTimeout(() => elt.style.visibility = 'visible', delay)
 }
 
+const chooseRandom = list => list[Math.floor((Math.random() * list.length))]
+
 const newQuestion = list => {
+  console.log(wrongSet) // TODO deleteme
   blink(correctCount, `(${inARow})`)
   answer.value = ''
-  current = list[currentIdx]
-  currentIdx = (currentIdx + 1) % list.length
+  // With some probability, choose from the list of previously wrong-answered ones instead
+  if (wrongSet.size > 0 && Math.random() < wrongListProbability) {
+    console.log('choosing from wrong set') // TODO deleteme
+    current = chooseRandom(Array.from(wrongSet))
+  } else {
+    current = list[currentIdx]
+    currentIdx = (currentIdx + 1) % list.length
+  }
   blink(question, current[questionIdx])
   answer.focus()
 }
@@ -31,10 +43,12 @@ const submit = (list, e) => {
   const input = answer.value
   const realAnswer = current[answerIdx]
   if (input.toLowerCase() === realAnswer.toLowerCase()) {
+    wrongSet.delete(current)
     inARow++
     blink(feedback, 'Correct!')
     document.body.style.backgroundColor = `hsl(${Math.floor((Math.random() * 360))} 100% 90%)`
   } else {
+    wrongSet.add(current)
     inARow = 0
     blink(feedback, `Answer: ${realAnswer.toLowerCase()}`)
   }
