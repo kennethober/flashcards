@@ -22,11 +22,12 @@ const blink = (elt, value, delay = 200) => {
 
 const chooseRandom = list => list[Math.floor((Math.random() * list.length))]
 
-const newQuestion = list => {
+const newQuestion = (list, lastWasWrong) => {
   blink(correctCount, `(${inARow})`)
   answer.value = ''
   // With some probability, choose from the list of previously wrong-answered ones instead
-  if (wrongSet.size > 0 && Math.random() < wrongListProbability) {
+  // (and don't do if the last one was wrong, to lower risk of showing the same one twice)
+  if (!lastWasWrong && wrongSet.size > 0 && Math.random() < wrongListProbability) {
     current = chooseRandom(Array.from(wrongSet))
   } else {
     current = list[currentIdx]
@@ -40,17 +41,19 @@ const submit = (list, e) => {
   e.preventDefault() // Block default form submission
   const input = answer.value
   const realAnswer = current[answerIdx]
+  let lastWasWrong = false
   if (input.toLowerCase() === realAnswer.toLowerCase()) {
     wrongSet.delete(current)
     inARow++
     blink(feedback, 'Correct!')
     document.body.style.backgroundColor = `hsl(${Math.floor((Math.random() * 360))} 100% 90%)`
   } else {
+    lastWasWrong = true
     wrongSet.add(current)
     inARow = 0
     blink(feedback, `Answer: ${realAnswer.toLowerCase()}`)
   }
-  newQuestion(list)
+  newQuestion(list, lastWasWrong)
 }
 
 const onCheckbox = e => {
