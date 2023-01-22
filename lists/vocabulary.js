@@ -193,10 +193,9 @@ const list = [
   ['To feel angry, to get angry', '화나다'],
   ['Worry, concern', '걱정'],
   ['Why', '왜'],
-  ['Study', '공부']
+  ['Study', '공부'],
+  ['Feeling', '느낌']
   /*
-  // Remember to add a comma to the entry above before adding more
-  ['Feeling', ''],
   ['Calendar', ''],
   ['Date', ''],
   ['Shape', ''],
