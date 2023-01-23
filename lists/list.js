@@ -324,4 +324,4 @@ const list = [
   ['Success', '성공'],
   ['Next', '다음'],
   ['Hat, cap', '모자']
-  */
+  
