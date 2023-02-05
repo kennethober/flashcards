@@ -24,7 +24,8 @@ const chooseRandom = list => list[Math.floor((Math.random() * list.length))]
 
 const newQuestion = (list, lastWasWrong) => {
   blink(correctCount, `(${inARow})`)
-  answer.value = ''
+  //answer.value = ''
+  form.reset()
   // With some probability, choose from the list of previously wrong-answered ones instead
   // (and don't do if the last one was wrong, to lower risk of showing the same one twice)
   if (!lastWasWrong && wrongSet.size > 0 && Math.random() < wrongListProbability) {
