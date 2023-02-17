@@ -449,7 +449,7 @@ const list = [
   ['Pencil', '연필'],
   ['To lend', '빌려주다'],
   ['Pen', '펜'],
-  ['Again', '또'].
+  ['Again', '또'],
   ['Reason', '이유'],
   ['To be crazy, to go crazy', '미치다'],
   ['To be bad', '나쁘다'],
