@@ -413,7 +413,7 @@ const list = [
   ['Tree, wood', '나무'],
   ['Smell', '냄새'],
   ['Body', '몸'],
-  ['To move', '움직이다']
+  ['To move', '움직이다'],
   ['Airport', '공항'],
   ['To be spacious, to be wide', '넓다'],
   ['Road, street', '길'],
