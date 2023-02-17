@@ -25,7 +25,7 @@ const list = [
   ['Movie', '영화'],
   ['Cafe', '카페'],
   ['Every day', '매일'],
-  ['Early', '일찍'
+  ['Early', '일찍'],
   ['To get up, to wake up', '일어나다'],
   ['Water', '물'],
   ['To drink', '마시다'],
@@ -461,7 +461,6 @@ const list = [
   ['To be cheap, to be inexpensive', '싸다'],
   ['To boil', '끓이다'],
   ['To be sweet', '달다'],
-  ['To be bitter', '쓰다'],
   ['Disappointment', '실망'], 
   ['Plan', '계획']
   ]
