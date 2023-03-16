@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-   font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 body, button, input {
-  font-size: xx-large;
+  font-size: 1.5rem;
   text-size-adjust: none;
 }
 
@@ -21,7 +21,7 @@ h1 {
   font-weight: 100;
   padding: 1rem;
   margin: 0;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 p {
@@ -45,7 +45,7 @@ form {
 }
 
 #question {
-  font-size: xxx-large; 
+  font-size: 2rem; 
 }
 
 #answer {
