@@ -13,7 +13,7 @@
 //  ['english2', 'korean2'],
 //  */
 
-const list = [
+const listFromFile = [
   // ['I, me', '저'],
   // ['Company employee', '회사원'],
   // ['Too, very', '너무'],
