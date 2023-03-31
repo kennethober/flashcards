@@ -13,7 +13,7 @@
 //  ['english2', 'korean2'],
 //  */
 
-const list = [
+const listFromFile = [
   ['e1', 'k1'],
   ['e2', 'k2'],
   ['e3', 'k3'],
