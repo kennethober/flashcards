@@ -86,7 +86,7 @@ const reset = () => {
   currentIdx = -1
   actualIdx = null
   wrongSet = new Set()
-  inARow = 0
+  // inARow = 0 // Don't clear out current score
   newQuestion()
 }
 
