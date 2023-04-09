@@ -1,9 +1,3 @@
-/* TODO
- * let listName = null 
- * Add script to load list based on url param
- * Store separate list-order and progress for each list param
-*/
-
 const directionBtn = document.getElementById('direction')
 const resetBtn = document.getElementById('reset')
 const question = document.getElementById('question')
@@ -12,10 +6,11 @@ const form = document.getElementById('form')
 const feedback = document.getElementById('feedback')
 const correctCount = document.getElementById('correctCount')
 
+const defaultList = 'default'
 const wrongListProbability = 0.25
-let wrongSet = new Set()
 
-let listName = null
+let wrongSet = new Set()
+let listParam = null
 let list = []
 let direction = 'e2k'
 let questionIdx = 0
@@ -86,7 +81,6 @@ const reset = () => {
   currentIdx = -1
   actualIdx = null
   wrongSet = new Set()
-  // inARow = 0 // Don't clear out current score
   newQuestion()
 }
 
@@ -125,6 +119,9 @@ const storeInARow = num => localStorage.inARow = num
 const getCurrent = () => JSON.parse(localStorage.current)
 const storeCurrent = arr => localStorage.current = JSON.stringify(arr)
 
+const getListParam = () => localStorage.listParam
+const storeListParam = listParam => localStorage.listParam = listParam
+
 const store = (idx, actualIdx, wrongSet, inARow, current) => {
   storeIdx(idx)
   storeActualIdx(actualIdx)
@@ -133,8 +130,17 @@ const store = (idx, actualIdx, wrongSet, inARow, current) => {
   storeCurrent(current)
 }
 
+const loadList = () => {
+  const scr = document.createElement('script')
+  const params = new URLSearchParams(document.location.search)
+  listParam = params.get('l') || defaultList
+  scr.setAttribute('src', `lists/${listParam}.js`)
+  document.body.appendChild(scr)
+}
+
 const initialize = () => {
-  if (haveStorage()) {
+  loadList()
+  if (haveStorage() && getListParam() === listParam) {
     list = getList()
     currentIdx = getIdx()
     actualIdx = getActualIdx()
@@ -143,7 +149,9 @@ const initialize = () => {
     current = getCurrent()
     updateDisplay()
   } else {
-    reset()
+    inARow = getInARow()
+    storeListParam(listParam)
+    setTimeout(reset, 500)
   }
   directionBtn.addEventListener('click', onDirectionBtn)
   resetBtn.addEventListener('click', reset)
