@@ -14,9 +14,9 @@
 //  */
 
 const listFromFile = [
-  ['e1', 'k1'],
-  ['e2', 'k2'],
-  ['e3', 'k3'],
-  ['e4', 'k4'],
-  ['e5', 'k5']
+  ['Reviewing', '복습'],
+  ['Future Tense', '미래 시제'],
+  ['Past Tense', '과거 시제'],
+  ['Present Tense', '현재 시제'],
+  ['e5', 'k5'],
 ]
