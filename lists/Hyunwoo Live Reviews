@@ -22,4 +22,9 @@ const listFromFile = [
   ['To stick, to pass (an exam)', '붙다'],
   ['Muting', '무음'],
   ['Robot', '로봇'],
+  ['Particle (grammar)', '조사'],
+  ['Computer keyboard', '키보드'],
+  ['Sentence', '문장'],
+  ['Days of the week 요일', '월 화 수 목 금 토 일'],
+  ['Last', '마지막'],
 ]
