@@ -18,5 +18,8 @@ const listFromFile = [
   ['Future Tense', '미래 시제'],
   ['Past Tense', '과거 시제'],
   ['Present Tense', '현재 시제'],
-  ['e5', 'k5'],
+  ['To find, to look for', '찾다'],
+  ['To stick, to pass (an exam)', '붙다'],
+  ['Muting', '무음'],
+  ['Robot', '로봇'],
 ]
