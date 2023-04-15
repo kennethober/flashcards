@@ -43,5 +43,5 @@ const listFromFile = [
   ['Counter for people', '명'], 
   ['Telling time', '시간 말하기'],
   ['Especially', '특히'],
-  ['', ''], 
+  ['Housewife', '가정 주부'], 
 ]
