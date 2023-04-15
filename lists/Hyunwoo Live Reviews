@@ -30,4 +30,6 @@ const listFromFile = [
   ['Ultrasound', '초음파'],
   ['Sharp, on the clock', '정각'],
   ['Seat, room (for), space (for)', '자리'],
+  ['Pleasant, pleased (with/about), enjoyable, joyful, cheerful, happy, merry', '즐겁다'],
+  ['Self-introduction', '자기소개'],
 ]
