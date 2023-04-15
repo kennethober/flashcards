@@ -44,4 +44,5 @@ const listFromFile = [
   ['Telling time', '시간 말하기'],
   ['Especially', '특히'],
   ['Housewife', '가정 주부'], 
+  ['Work day', '평일'],
 ]
