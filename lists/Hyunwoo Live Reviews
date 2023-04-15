@@ -29,4 +29,5 @@ const listFromFile = [
   ['Last', '마지막'],
   ['Ultrasound', '초음파'],
   ['Sharp, on the clock', '정각'],
+  ['Seat, room (for), space (for)', '자리'],
 ]
