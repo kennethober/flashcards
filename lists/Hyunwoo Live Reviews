@@ -41,5 +41,7 @@ const listFromFile = [
   ['Counter for pens/pencils, swords', '자루'],
   ['Counter for things/objects', '개'],
   ['Counter for people', '명'], 
-  ['', ''],
+  ['Telling time', '시간 말하기'],
+  ['Especially', '특히'],
+  ['', ''], 
 ]
