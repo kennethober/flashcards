@@ -50,5 +50,5 @@ const listFromFile = [
   ['To bake', '굽다'],
   ['To knit', '뜨개지다'],
   ['Vocabulary', '어휘'],
-  ['', ''], 
+  ['Novel', '소설'], 
 ]
