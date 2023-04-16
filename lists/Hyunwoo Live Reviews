@@ -48,4 +48,7 @@ const listFromFile = [
   ['15 days', '보름'],
   ['Full moon', '보름달'],
   ['To bake', '굽다'],
+  ['To knit', '뜨개지다'],
+  ['Vocabulary', '어휘'],
+  ['', ''], 
 ]
