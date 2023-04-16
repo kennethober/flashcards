@@ -47,5 +47,5 @@ const listFromFile = [
   ['Work day', '평일'],
   ['15 days', '보름'],
   ['Full moon', '보름달'],
-  ['', ''],
+  ['To bake', '굽다'],
 ]
