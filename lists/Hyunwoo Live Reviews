@@ -45,4 +45,7 @@ const listFromFile = [
   ['Especially', '특히'],
   ['Housewife', '가정 주부'], 
   ['Work day', '평일'],
+  ['15 days', '보름'],
+  ['Full moon', '보름달'],
+  ['', ''],
 ]
