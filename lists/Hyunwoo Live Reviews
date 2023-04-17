@@ -53,5 +53,6 @@ const listFromFile = [
   ['Novel', '소설'], 
   ['Gym', '체육관'],
   ['Vacuum cleaner', '진공청소기'],
+  ['Ability, skill (at/in), capacity (for), competence', '실력'],
   ['', ''],
 ]
