@@ -60,6 +60,10 @@ const listFromFile = [
   ['It is not (good) at all', '별로예요'],
   ['While (verb)', 'VS + 면서'],
   ['(Other person) thinks it is fun', '재미있어해요 vs 재미있어요'],
+  ['To be kind to (someone)', '-한테 잘해 주다'],
+  ['Nice to meet you / Please take good care of me', '반갑습니다 / 잘 부탁드립니다'],
+  ['TTMIK (with, through, via) vs TTMIK (with people)', 'TTMIK으로 vs TTMIK이랑'],
+  ['Please give me just/only one', '한 개만 주세요'],
+  ['To be seen, to appear, to come into view (pv)', '보이다'],
+  ['To be heard, be audible (pv)', '들리다'],
   ['', ''],
-  
-]
