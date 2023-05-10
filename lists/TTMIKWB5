@@ -14,9 +14,12 @@
 //  */
 
 const listFromFile = [
-  ['e1', 'k1'],
-  ['e2', 'k2'],
-  ['e3', 'k3'],
-  ['e4', 'k4'],
-  ['e5', 'k5']
+  ['To get into an accident', '사고가 나다'],
+  ['To get caught', '들키다 / 잡히다'],
+  ['To miss the train', '기차를 놓치다'],
+  ['To fall off a chair', '의자에서 떨어지다'],
+  ['To get hit by a car', '차에 치이다'],
+  ['To say/tell/speak/talk', '말하다'],
+  ['To die', '죽다'],
+  ['To cry', '울다'],
 ]
