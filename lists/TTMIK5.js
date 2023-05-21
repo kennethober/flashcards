@@ -124,4 +124,5 @@ const listFromFile = [
   ['Any, what, which, what kind of', '어떤'], 
   ['To bake', '굽다'],
   ['To pass by', '지나가다'], 
-  ['In a flash, dramatically', '확'],
+  ['In a flash, dramatically', '확']
+  ]
