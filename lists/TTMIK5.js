@@ -37,7 +37,7 @@ const listFromFile = [
   ['To press, to push', '누르다'],
   ['Answer, reply', '답'],
   ['To fall asleep', '잠들다'], 
-  ['To like / to enter one's heart', '마음에 들다'],
+  ['To like / to enter one\'s heart', '마음에 들다'],
   ['Alone, by oneself', '혼자'],
   ['To depart, to leave', '출발하다'],
   ['To play soccer', '축구를 하다'],
