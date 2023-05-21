@@ -66,5 +66,5 @@ const listFromFile = [
   ['Always, all the time', '맨날'],
   ['Seldom, rarely', '별로'],
   ['Not at all', '전혀'],
-  ['Almost (but) not all', '거의'],
+  ['Almost (but) not all', '거의']
 ]
