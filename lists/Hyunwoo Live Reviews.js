@@ -66,5 +66,5 @@ const listFromFile = [
   ['Please give me just/only one', '한 개만 주세요'],
   ['To be seen, to appear, to come into view (pv)', '보이다'],
   ['To be heard, be audible (pv)', '들리다'],
-  ['Can you hear me well?', '잘 들리지 나요?'],
-  ['', ''],
+  ['Can you hear me well?', '잘 들리지 나요?']
+  ]
