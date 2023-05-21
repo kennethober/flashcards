@@ -27,7 +27,7 @@ const listFromFile = [
   ['To nobody', '아무한테도'],
   ['However you like it, just in any way', '아무렇게나'], 
   ['There is no (noun) of any kind', '아무(런) + noun + 도 + 없어요'],
-  ['It's nothing', '아무것도 아니에요'],
+  ['It\'s nothing', '아무것도 아니에요'],
   ['(Relates to) movement, move, to move', '동'], 
   ['Exercise, workout', '운동'],
   ['Movement, move', '동작'],
