@@ -56,7 +56,7 @@ const listFromFile = [
   ['To pass by', '지나가다'],
   ['To work part-time', '아르바이트하다'],
   ['To quit', '그만두다'],
-  ['Anything, doesn't matter what', '아무거나'],
+  ['Anything, doesn\'t matter what', '아무거나'],
   ['Anywhere, any place', '아무 데나'],
   ['First place winner', '일 등'],
   ['Theme park', '놀이공원'],
