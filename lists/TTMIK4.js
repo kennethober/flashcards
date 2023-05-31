@@ -23,7 +23,7 @@ const listFromFile = [
   ['Nowhere, not any place', '아무 데도'],
   ['Anytime, just anytime', '아무 때나'],
   ['No word, no mention', '아무 말도 / 아무 이야기도'],
-  ['To be all right, okay, unaffected by', '아무렇지도'],
+  ['To be all right, okay, unaffected by', '아무렇지도 않다'],
   ['To nobody', '아무한테도'],
   ['However you like it, just in any way', '아무렇게나'], 
   ['There is no (noun) of any kind', '아무(런) + noun + 도 + 없어요'],
@@ -66,5 +66,18 @@ const listFromFile = [
   ['Always, all the time', '맨날'],
   ['Seldom, rarely', '별로'],
   ['Not at all', '전혀'],
-  ['Almost (but) not all', '거의']
+  ['Almost (but) not all', '거의'],
+  ['To push', '밀다'],
+  ['You (반말)', '너 (네가 written / 니가 spoken'],
+  ['Cough', '기침'],
+  ['To be heavy, severe, violent, harsh', '심하다'],
+  ['To catch, be caught', '걸리다'],
+  ['To touch', '만지다'],
+  ['To throw', '던지다'],
+  ['To recommend', '추천하다'],
+  ['Certainly, surely, undoubtedly, exactly', '꼭'],
+  ['To ask', '물어보다'],
+  ['To look into something, to recognize', '알아보다'],
+  ['To keep a watchful eye on someone/something', '지켜보다'],
+  ['At once, immediately, straight, instantly, right away, right now', '바로']
 ]
