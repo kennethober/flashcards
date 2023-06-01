@@ -79,5 +79,11 @@ const listFromFile = [
   ['To ask', '물어보다'],
   ['To look into something, to recognize', '알아보다'],
   ['To keep a watchful eye on someone/something', '지켜보다'],
-  ['At once, immediately, straight, instantly, right away, right now', '바로']
-]
+  ['At once, immediately, straight, instantly, right away, right now', '바로'],
+  ['To walk', '걷다'],
+  ['Most/best (adverb)', '제일'],
+  ['Most/best (adverb)', '가장'],
+  ['To wear', '신다'],
+  ['Less/not completely (adverb)', '덜'],
+  ['Novel', '소설']
+  ]
