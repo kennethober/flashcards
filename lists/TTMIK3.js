@@ -21,5 +21,13 @@ const listFromFile = [
   ['To come in', '들어오다'],
   ['To collect, to gather', '모으다'],
   ['To pick up, to hold', '들다'],
-  ['To cut', '자르다']
+  ['To cut', '자르다'],
+  ['To be beautiful', '어름답다'],
+  ['To be cold (temperature/to touch)', '차갑다'],
+  ['To be cheap', '싸다'],
+  ['To be okay', '괜찮다'],
+  ['To be easy', '쉽다'],
+  ['To be wide', '넓다'],
+  ['To be different', '다르다'],
+  ['To be similar', '비슷하다']
 ]
