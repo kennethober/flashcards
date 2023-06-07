@@ -17,6 +17,9 @@ const listFromFile = [
   ['Company', '회사'],
   ['Library', '도서관'],
   ['Bookstore', '서점'],
-  ['e4', 'k4'],
-  ['e5', 'k5']
+  ['To ask', '묻다'],
+  ['To come in', '들어오다'],
+  ['To collect, to gather', '모으다'],
+  ['To pick up, to hold', '들다'],
+  ['To cut', '자르다']
 ]
