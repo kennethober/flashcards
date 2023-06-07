@@ -14,9 +14,9 @@
 //  */
 
 const listFromFile = [
-  ['e1', 'k1'],
-  ['e2', 'k2'],
-  ['e3', 'k3'],
+  ['Company', '회사'],
+  ['Library', '도서관'],
+  ['Bookstore', '서점'],
   ['e4', 'k4'],
   ['e5', 'k5']
 ]
