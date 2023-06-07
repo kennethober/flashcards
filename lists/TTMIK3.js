@@ -31,5 +31,10 @@ const listFromFile = [
   ['To be different', '다르다'],
   ['To be similar', '비슷하다'],
   ['Maybe, probably', '아마 / 아마도'],
-  ['For a long time', '오래']
+  ['For a long time', '오래'],
+  ['In front of', '앞에'],
+  ['Behind', '뒤에'],
+  ['Next to, beside', '옆에'],
+  ['On top of, over', '위에'],
+  ['Under, below', '밑에']
 ]
