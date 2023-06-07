@@ -29,5 +29,7 @@ const listFromFile = [
   ['To be easy', '쉽다'],
   ['To be wide', '넓다'],
   ['To be different', '다르다'],
-  ['To be similar', '비슷하다']
+  ['To be similar', '비슷하다'],
+  ['Maybe, probably', '아마 / 아마도'],
+  ['For a long time', '오래']
 ]
