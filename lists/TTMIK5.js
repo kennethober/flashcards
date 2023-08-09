@@ -124,5 +124,14 @@ const listFromFile = [
   ['Any, what, which, what kind of', '어떤'], 
   ['To bake', '굽다'],
   ['To pass by', '지나가다'], 
-  ['In a flash, dramatically', '확']
-  ]
+  ['In a flash, dramatically', '확'], 
+  ['To memorize', '외우다'],
+  ['To be blinded by light', '눈이 부시다'],
+  ['To leave', '떠나다'], 
+  ['To be thankful', '고맙다'], 
+  ['Rumor', '소문'],
+  ['To congratulate', '축하하다'],
+  ['To get married', '결혼하다'],
+  ['Lyrics', '가사'],
+  ] 
+  
