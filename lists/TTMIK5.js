@@ -133,5 +133,11 @@ const listFromFile = [
   ['To congratulate', '축하하다'],
   ['To get married', '결혼하다'],
   ['Lyrics', '가사'],
+  ['To drop', '떨어뜨리다'],
+  ['To lose', '잃다'],
+  ['To be regrettable, disappointing','아쉽다'],
+  ['To fall down','넘어지다'],
+  ['To run', '달리다'],
+  ['To eat/drink', '드시다'],
   ] 
   
