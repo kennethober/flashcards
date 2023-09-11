@@ -17,6 +17,6 @@ const listFromFile = [
   ['What day is it?', '오늘 무슨 요일이에요?'],
   ['What month and day is it?', '몇 월 며칠이에요?'],
   ['There isn\'t much left!', '얼마 안 남았네요'],
-  ['e4', 'k4'],
+  ['What should I say?', '뭐라 해야 될까?'],
   ['e5', 'k5']
 ]
