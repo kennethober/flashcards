@@ -504,6 +504,12 @@ const listFromFile = [
   ['To be light (weight)', '가볍다'],
   ['Tissue, toilet paper, trash', '휴지'],
   ['To be correct, to be right', '맞다'],
-  ['To stand', '서다']
+  ['To stand', '서다'],
+  ['To finish (transitive, someone actively finishes something)', '끝내다'],
+  ['To finish (intransitive, something comes naturally to an end)', '끝나다'],
+  ['Content', '내용'],
+  ['Late, after a late hour', '늦게'],
+  ['Later, at a later time', '나중에'],
+  ['Last night', '어젯밤']
   ]
 
