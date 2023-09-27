@@ -14,9 +14,18 @@
 //  */
 
 const listFromFile = [
-  ['e1', 'k1'],
-  ['e2', 'k2'],
-  ['e3', 'k3'],
-  ['e4', 'k4'],
-  ['e5', 'k5']
-]
+  ['How do you do? Nice to meet you!', '처음 뵙겠습니다'],
+  ['My', '제 (short for 저의)'],
+  ['Hometown', '고향'],
+  ['Engineer', '엔지니어'],
+  ['Contact information', '연락처'],
+  ['To let (someone) know, to inform', '알리다'],
+  ['Business card', '명함'],
+  ['To let (someone) know', '알려 주다'],
+  ['Cell phone', '핸드폰'],
+  ['Number', '번호'],
+  ['To let (someone) know (honorific)', '알려 드리다'],
+  ['To call (on the phone)', '전화하다'],
+  ['To save', '저장하다'],
+  ['To see, to meet (honorific)', '뵙다'], 
+  ]
