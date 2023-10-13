@@ -160,6 +160,25 @@ const listFromFile = [
   ['To take, to go by (transportation method)', '타고 가다'],
   ['Side dish', '반찬'],
   ['Will use, intend to use', '쓸 거다'],
-  ['Will be late, intend to be late', '늦을 거다']
+  ['Will be late, intend to be late', '늦을 거다'],
+  ['Meal', '식사'],
+  ['Restaurant', '식당'],
+  ['Food item, groceries', '식품'], 
+  ['Dining table', '식탁'],
+  ['Food', '음식'],
+  ['Restaurant (as a place of business in formal situations)', '음식점'],
+  ['Snack (between meals)', '간식'],
+  ['Flour-based food (like ramen, tteokbokki', '분식'],
+  ['To eat out, to dine out', '외식'],
+  ['Overeating, excessive eating', '과식'],
+  ['Dessert', '후식'],
+  ['Sample food, food sampling', '시식'],
+  ['Related to food & to eat', '식'],
+  ['Have you eaten?', '식사하셨어요?'],
+  ['Restaurant (loan word, more expensive/fancy than 식당', '레스토랑'],
+  ['Table', '탁자'],
+  ['Table tennis', '탁구'],
+  ['Snack (cookies, chips, etc)', '과자'],
+  ['Dessert (loan word)', '디저트']
   ] 
   
