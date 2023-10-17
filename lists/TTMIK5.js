@@ -185,6 +185,7 @@ const listFromFile = [
   ['To build', '짓다'],
   ['Floor', '바닥'],
   ['Secretly', '몰래'],
-  ['To order', '시키다']
+  ['To order', '시키다'],
+  ['Comic book', '만화책']
   ] 
   
