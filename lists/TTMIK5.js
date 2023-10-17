@@ -179,6 +179,11 @@ const listFromFile = [
   ['Table', '탁자'],
   ['Table tennis', '탁구'],
   ['Snack (cookies, chips, etc)', '과자'],
-  ['Dessert (loan word)', '디저트']
+  ['Dessert (loan word)', '디저트'],
+  ['To walk (somewhere)', '걸어가다'],
+  ['To walk', '걷다'],
+  ['To build', '짓다'],
+  ['Floor', '바닥'],
+  ['Secretly', '몰래']
   ] 
   
