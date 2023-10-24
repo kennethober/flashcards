@@ -186,6 +186,25 @@ const listFromFile = [
   ['Floor', '바닥'],
   ['Secretly', '몰래'],
   ['To order', '시키다'],
-  ['Comic book', '만화책']
-  ] 
+  ['Comic book', '만화책'],
+  ['Anyway, in any case, regardless', '어차피'],
+  ['Very, extremely', '굉장히'],
+  ['Last weekend', '지난주말'],
+  ['To travel, traveling', '여행을 가다'],
+  ['To work a part-time job', '아르바이트를 하다'],
+  ['To do something for someone', '해 주다'],
+  ['Verb', '동사'],
+  ['To remember, to memorize', '기억하다'],
+  ['Pronunciation, articulation', '발음'],
+  ['For now, for the time being, first, first of all', '우선'],
+  ['Only a few, just a few', '몇 개만'],
+  ['To  challenge', '도전하다'],
+  ['Moutain', '산'],
+  ['Sneakers, sports shoes', '운동화'],
+  ['Comparison', '비교'],
+  ['To compare', '비교하다'],
+  ['To hit, to play an instrument', '치다'],
+  ['You (casual + SM)', '네가'],
+  ['I (casual + SM)', '내가']
+  ]
   
