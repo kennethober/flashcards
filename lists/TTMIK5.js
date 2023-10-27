@@ -205,6 +205,18 @@ const listFromFile = [
   ['To compare', '비교하다'],
   ['To hit, to play an instrument', '치다'],
   ['You (casual + SM)', '네가'],
-  ['I (casual + SM)', '내가']
+  ['I (casual + SM)', '내가'],
+  ['Pheasant', '꿩'],
+  ['To give up', '포기하다'],
+  ['Quality, state of one's hair', '머릿결'],
+  ['To dye/color one's hair', '염색하다'],
+  ['Chicken', '닭'],
+  ['Proverb', '속담'],
+  ['To get off work', '퇴근하다'],
+  ['Character', '캐릭터'],
+  ['Video', '영상'],
+  ['Recording', '녹음'],
+  ['Old', '예전'],
+  ['To change, to be changed', '바뀌다']
   ]
   
