@@ -217,6 +217,18 @@ const listFromFile = [
   ['Video', '영상'],
   ['Recording', '녹음'],
   ['Old', '예전'],
-  ['To change, to be changed', '바뀌다']
+  ['To change, to be changed', '바뀌다'],
+  ['Player, athlete', '선수'],
+  ['Knee', '무릎'],
+  ['To be kind', '친절하다'],
+  ['To be inexpensive', '저렴하다'],
+  ['Injury', '부상'],
+  ['Children', '아이들'],
+  ['All day', '하루 종일'],
+  ['To be serious, severe', '심각하다'],
+  ['To be confident', '자신하다'],
+  ['Competition, match', '시합'],
+  ['Freestyle swimming, breaststroke', '평영'],
+  ['Very, extremely, incredibly', '엄청']  
   ]
   
