@@ -242,6 +242,14 @@ const listFromFile = [
   ['To let someone know', '알리다'],
   ['To substitute', '대신하다'],
   ['To be wrong', '틀리다'],
-  ['Right away', '곧바로']
+  ['Right away', '곧바로'],
+  ['Quickly, hurriedly, right away', '얼른'],
+  ['To decide, make up your mind', '정하다'],
+  ['To be the same', '똑같다'],
+  ['Typhoon', '태풍'],
+  ['Life', '인생'],
+  ['Even for just a little while', '잠시라도'],
+  ['To have a favor (to ask)', '부탁이 있다'],
+  ['To do a favor for someone', '부탁을 들어주다']  
   ]
   
