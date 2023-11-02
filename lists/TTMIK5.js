@@ -229,6 +229,19 @@ const listFromFile = [
   ['To be confident', '자신하다'],
   ['Competition, match', '시합'],
   ['Freestyle swimming, breaststroke', '평영'],
-  ['Very, extremely, incredibly', '엄청']  
+  ['Very, extremely, incredibly', '엄청'],
+  ['Free of charge', '공짜'],
+  ['Opposite side', '맞은편'],
+  ['Words, what one says', '말'],
+  ['Train', '기차'],
+  ['To run', '뛰다'],
+  ['To stop', '멈추다'],
+  ['To finish', '끝내다'],
+  ['To leave something, to leave something behind/unfinished', '남기다'],
+  ['To touch', '손대다'],
+  ['To let someone know', '알리다'],
+  ['To substitute', '대신하다'],
+  ['To be wrong', '틀리다'],
+  ['Right away', '곧바로']
   ]
   
