@@ -34,4 +34,14 @@ const listFromFile = [
   ['To suggest, to propose', '제안하다'],
   ['To leave the country, to depart', '출국하다'],
   ['To pack', '싸다'],
+  ['To decide, to make a decision', '결정하다'],
+  ['Opinion, view', '의견'],
+  ['Difference, distinction', '차이'],
+  ['To gather, to get together', '모이다'],
+  ['To agree', '찬성하다'],
+  ['To disagree, to oppose', '반대하다'],
+  ['Enough, fully', '충분히'],
+  ['To be satisfied', '만족하다'],
+  ['Direction, way', '방향'],
+  ['To choose, to pick', '선택하다']
 ]
