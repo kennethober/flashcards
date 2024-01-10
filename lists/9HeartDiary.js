@@ -14,9 +14,13 @@
 //  */
 
 const listFromFile = [
-  ['e1', 'k1'],
-  ['e2', 'k2'],
-  ['e3', 'k3'],
-  ['e4', 'k4'],
-  ['e5', 'k5']
+  ['Alphabetical order', '가나다순'],
+  ['To be pleased, content, satisfied', '흐뭇하다'],
+  ['To be touching, moving, heartwarming', '감격스럽다'],
+  ['To be accurate, precise', '정확하다'],
+  ['To express, convey', '표현하다'],
+  ['Oneself', '자신'],
+  ['To utilize, to apply', '활용하다'],
+  ['Situation, circumstance', '상황'],
+  ['To understand', '이해하다']
 ]
