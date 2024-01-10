@@ -14,8 +14,8 @@
 //  */
 
 const listFromFile = [
-  ['e1', 'k1'],
-  ['e2', 'k2'],
+  ['Big trouble, serious problem', '큰일'],
+  ['Way, method', '방법'],
   ['e3', 'k3'],
   ['e4', 'k4'],
   ['e5', 'k5']
