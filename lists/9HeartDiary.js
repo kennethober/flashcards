@@ -24,5 +24,7 @@ const listFromFile = [
   ['Situation, circumstance', '상황'],
   ['To understand', '이해하다'],
   ['Cause, reason', '때문'],
-  ['Because of, due to', '때문에']
+  ['Because of, due to', '때문에'],
+  ['Meaning', '뜻'],
+  ['Emotion', '감정']
 ]
