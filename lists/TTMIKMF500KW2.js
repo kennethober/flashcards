@@ -43,5 +43,15 @@ const listFromFile = [
   ['Enough, fully', '충분히'],
   ['To be satisfied', '만족하다'],
   ['Direction, way', '방향'],
-  ['To choose, to pick', '선택하다']
+  ['To choose, to pick', '선택하다'],
+  ['Diary, journal', '일기'],
+  ['To be lonely', '외롭다'],
+  ['Actually, in fact', '사실'],
+  ['Family, home', '가정'],
+  ['Parents', '부모'],
+  ['Role, part', '역할'],
+  ['Workplace, work, job', '직장'],
+  ['To raise, rear', '키우다'],
+  ['Fond memory', '추억'],
+  ['To make an effort, to work hard', '노력하다']
 ]
