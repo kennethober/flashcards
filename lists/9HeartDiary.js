@@ -22,5 +22,7 @@ const listFromFile = [
   ['Oneself', '자신'],
   ['To utilize, to apply', '활용하다'],
   ['Situation, circumstance', '상황'],
-  ['To understand', '이해하다']
+  ['To understand', '이해하다'],
+  ['Cause, reason', '때문'],
+  ['Because of, due to', '때문에']
 ]
