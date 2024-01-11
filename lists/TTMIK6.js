@@ -16,7 +16,12 @@
 const listFromFile = [
   ['Big trouble, serious problem', '큰일'],
   ['Way, method', '방법'],
-  ['e3', 'k3'],
-  ['e4', 'k4'],
-  ['e5', 'k5']
+  ['To be colorful', '화려하다'],
+  ['To be better, superior', '낫다'],
+  ['To study abroad', '유학 가다'],
+  ['Rumor', '소문'],
+  ['Magazine' '잡지'],
+  ['Red', '빨간색'],
+  ['Black', '검은색'],
+  ['Dress', '원피스']
 ]
