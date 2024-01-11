@@ -42,5 +42,12 @@ const listFromFile = [
   ['Heart', '가슴'],
   ['To be sentimental, choked up', '뭉클하다'],
   ['Particle used when listing out examples or choices (at least, there can be more than mentioned)', '이나'],
-  ['Conjunction meaning or', '거나']
+  ['Conjunction meaning or', '거나'],
+  ['As expected, sure enough', '역시'],
+  ['Multiplication tables 1 to 9', '구구단'],
+  ['To memorize, learn by heart', '외우다'],
+  ['To feel', '들다'],
+  ['Mischievous, troublemaker', '말썽꾸러기인'],
+  ['Suffix meaning person or one who', '인'],
+  ['To receive praise', '칭찬받다']
 ]
