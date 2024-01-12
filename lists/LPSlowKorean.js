@@ -28,5 +28,16 @@ const listFromFile = [
   ['Anticipation, expectation', '기대'],
   ['To look forward to, to become an anticipation or expectation', '기대 되다'],
   ['To roll', '말다'],
-  ['To be, stay', '계시다']
+  ['To be, stay', '계시다'],
+  ['Lunchbox container', '도시락통'],
+  ['Packed lunch meal', '도시락'],
+  ['To put in', '넣다'],
+  ['To have, possess', '가지다'],
+  ['To pack', '싸 가지다'],
+  ['Memory', '기억'],
+  ['To attend, go regularly, to go around', '다니다'],
+  ['One time', '한 번'],
+  ['Just to try (once)', '한번'],
+  ['To be exact, precise', '정확하다'],
+  ['Information', '정보']
 ]
