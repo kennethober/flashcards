@@ -14,9 +14,13 @@
 //  */
 
 const listFromFile = [
-  ['e1', 'k1'],
-  ['e2', 'k2'],
-  ['e3', 'k3'],
-  ['e4', 'k4'],
-  ['e5', 'k5']
+  ['Usual, ordinary, average, regular', '평소'],
+  ['As, like', '처람'],
+  ['By any chance', '혹시'],
+  ['Picnic', '소풍'],
+  ['Or', '거나'],
+  ['Outside, outdoors', '야외'],
+  ['Always, surely, certainly, undoubtedly', '꼭'],
+  ['Tada', '짜잔'],
+  ['Middle school', '초등학교']
 ]
