@@ -22,5 +22,11 @@ const listFromFile = [
   ['Outside, outdoors', '야외'],
   ['Always, surely, certainly, undoubtedly', '꼭'],
   ['Tada', '짜잔'],
-  ['Middle school', '초등학교']
+  ['Elementary school', '초등학교'],
+  ['To be young', '어리다'],
+  ['To wrap, roll, prepare, pack', '싸다'],
+  ['Anticipation, expectation', '기대'],
+  ['To look forward to, to become an anticipation or expectation', '기대 되다'],
+  ['To roll', '말다'],
+  ['To be, stay', '계시다']
 ]
