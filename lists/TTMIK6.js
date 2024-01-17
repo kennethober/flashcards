@@ -23,5 +23,12 @@ const listFromFile = [
   ['Magazine' '잡지'],
   ['Red', '빨간색'],
   ['Black', '검은색'],
-  ['Dress', '원피스']
+  ['Dress', '원피스'],
+  ['To be close with someone', '친하다'],
+  ['Counter for thing, kind, type', '가지'],
+  ['Counters for place', '곳 or 군데'],
+  ['Method, solution', '방법'],
+  ['PhD program', '박사 과정'],
+  ['Various', '여러 가지'],
+  ['Tuition fees', '등록금']
 ]
