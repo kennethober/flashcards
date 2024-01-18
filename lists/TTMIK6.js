@@ -30,5 +30,6 @@ const listFromFile = [
   ['Method, solution', '방법'],
   ['PhD program', '박사 과정'],
   ['Various', '여러 가지'],
-  ['Tuition fees', '등록금']
+  ['Tuition fees', '등록금'],
+  ['To explain', '설명하다']
 ]
