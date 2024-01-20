@@ -31,5 +31,18 @@ const listFromFile = [
   ['PhD program', '박사 과정'],
   ['Various', '여러 가지'],
   ['Tuition fees', '등록금'],
-  ['To explain', '설명하다']
+  ['To explain', '설명하다'],
+  ['Staff', '종업원'],
+  ['To be empty, vacant, unoccupied', '비다'],
+  ['Customer', '손님'],
+  ['To write, put, jot, take down', '적다'],
+  ['Vacancy, opening, unoccupied seat', '빈자리'],
+  ['To give, offer, more polite than 주다', '드리다'],
+  ['To sit', '앉다'],
+  ['Window', '창문'],
+  ['To close', '닫다'],
+  ['To open', '열다'],
+  ['To explain', '설명하다'],
+  ['Grammar', '문법'],
+  ['To be urgent, pressing', '급하다']
 ]
