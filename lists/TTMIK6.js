@@ -44,5 +44,9 @@ const listFromFile = [
   ['To open', '열다'],
   ['To explain', '설명하다'],
   ['Grammar', '문법'],
-  ['To be urgent, pressing', '급하다']
+  ['To be urgent, pressing', '급하다'],
+  ['Middle school', '중학교'],
+  ['Midterm exam', '중간고사'],
+  ['Central', '중앙'],
+  ['Related to middle, center, medium', '중']
 ]
