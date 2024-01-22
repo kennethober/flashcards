@@ -48,5 +48,13 @@ const listFromFile = [
   ['Middle school', '중학교'],
   ['Midterm exam', '중간고사'],
   ['Central', '중앙'],
-  ['Related to middle, center, medium', '중']
+  ['Related to middle, center, medium', '중'],
+  ['To put, lay, place', '놓다'],
+  ['To drive', '운전하다'],
+  ['Key', '열쇠'],
+  ['Wallet', '지갑'],
+  ['To find', '찾다'],
+  ['Company', '회사'],
+  ['Meeting', '회의'],
+  ['To turn down', '줄이다']
 ]
