@@ -56,5 +56,18 @@ const listFromFile = [
   ['To find', '찾다'],
   ['Company', '회사'],
   ['Meeting', '회의'],
-  ['To turn down', '줄이다']
+  ['To turn down', '줄이다'],
+  ['I'll see you later', '이따 뵐게요'],
+  ['Kindergarten', '유치원'],
+  ['Blind person', '장님'],
+  ['Visually handicapped person', '시각 장애인'],
+  ['Professor', '교수'],
+  ['Customer in a business-related context', '고객님'],
+  ['Head of company', '사장'],
+  ['Section chief', '과장'],
+  ['Head of department (manager)', '부장'],
+  ['President of a college, dean', '총장'],
+  ['Employee', '사원'],
+  ['Deputy section chief', '대리'],
+  ['Deputy head of department', '차장']
 ]
