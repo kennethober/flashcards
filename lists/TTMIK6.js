@@ -75,5 +75,7 @@ const listFromFile = [
   ['To stop by, come by, drop by', '들르다'],
   ['To hear from someone', '연락 오다'],
   ['To be too good to throw away', '아깝다'],
-  ['Short form of 것이', '게']
+  ['Short form of 것이', '게'],
+  ['Short form of 이것이', '이게'],
+  ['What meaning', '무슨 뜻']
   ]
