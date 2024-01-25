@@ -69,5 +69,11 @@ const listFromFile = [
   ['President of a college, dean', '총장'],
   ['Employee', '사원'],
   ['Deputy section chief', '대리'],
-  ['Deputy head of department', '차장']
-]
+  ['Deputy head of department', '차장'],
+  ['To take, bring, carry', '가져가다'],
+  ['To have', '가지다'],
+  ['To stop by, come by, drop by', '들르다'],
+  ['To hear from someone', '연락 오다'],
+  ['To be too good to throw away', '아깝다'],
+  ['Short form of 것이', '게']
+  ]
