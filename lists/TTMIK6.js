@@ -81,5 +81,6 @@ const listFromFile = [
   ['Department store', '백화점'],
   ['A favor', '부탁'],
   ['A few more days', '며칠 더'],
-  ['To return (book, DVD)', '반납하다']
+  ['To return (book, DVD)', '반납하다'],
+  ['To be the same, equal to, identical to', '똑같다']
   ]
