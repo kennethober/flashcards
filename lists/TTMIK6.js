@@ -80,5 +80,6 @@ const listFromFile = [
   ['What meaning', '무슨 뜻'],
   ['Department store', '백화점'],
   ['A favor', '부탁'],
-  ['A few more days', '며칠 더']
+  ['A few more days', '며칠 더'],
+  ['To return (book, DVD)', '반납하다']
   ]
