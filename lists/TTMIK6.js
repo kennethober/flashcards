@@ -83,5 +83,6 @@ const listFromFile = [
   ['A few more days', '며칠 더'],
   ['To return (book, DVD)', '반납하다'],
   ['To be the same, equal to, identical to', '똑같다'],
-  ['To do someone a favor', '부탁을 들어주다']
+  ['To do someone a favor', '부탁을 들어주다'],
+  ['Speaking of which', '말이 나온 김에']
   ]
