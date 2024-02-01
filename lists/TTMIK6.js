@@ -79,5 +79,6 @@ const listFromFile = [
   ['Short form of 이것이', '이게'],
   ['What meaning', '무슨 뜻'],
   ['Department store', '백화점'],
-  ['A favor', '부탁']
+  ['A favor', '부탁'],
+  ['A few more days', '며칠 더']
   ]
