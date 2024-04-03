@@ -84,5 +84,19 @@ const listFromFile = [
   ['To return (book, DVD)', '반납하다'],
   ['To be the same, equal to, identical to', '똑같다'],
   ['To do someone a favor', '부탁을 들어주다'],
-  ['Speaking of which', '말이 나온 김에']
+  ['Speaking of which', '말이 나온 김에'],
+  ['Exercise shoes', '운동화'],
+  ['Style', '스다일'],
+  ['Color', '색깔'],
+  ['Very, really', '엄청'],
+  ['To be splendid, dazzling, bright', '화려하다'],
+  ['To mean, to imply', '의미하다'],
+  ['Meaning', '뜻'],
+  ['My (honorific)', '제'],
+  ['So, you mean... I mean...', '그러니까'],
+  ['Already', '벌써'],
+  ['By oneself, alone', '혼자'],
+  ['One's whole heart, sincerity', '진심'],
+  ['The best', '최고'],
+  ['Real, really', '진짜']
   ]
