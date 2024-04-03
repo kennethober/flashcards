@@ -94,9 +94,10 @@ const listFromFile = [
   ['Meaning', '뜻'],
   ['My (honorific)', '제'],
   ['So, you mean... I mean...', '그러니까'],
-  ['Already', '벌써'],
+  ['Already' (something happened sooner than expected, nuance of surprise), '벌써'],
   ['By oneself, alone', '혼자'],
   ['One's whole heart, sincerity', '진심'],
   ['The best', '최고'],
-  ['Real, really', '진짜']
+  ['Real, really', '진짜'],
+  ['Already (something has happened by the present moment', '이미']  
   ]
