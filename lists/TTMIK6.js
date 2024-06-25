@@ -99,5 +99,11 @@ const listFromFile = [
   ['One's whole heart, sincerity', '진심'],
   ['The best', '최고'],
   ['Real, really', '진짜'],
-  ['Already (something has happened by the present moment', '이미']  
+  ['Already (something has happened by the present moment', '이미'],
+  ['To go find a place', '찾아 가다'],
+  ['After awhile, in a bit', '있다가'],
+  ['To be simple', '간단하다'],
+  ['To be complicated', '복잡하다'],
+  ['By yourself', '혼자서'],
+  ['Certainly, surely, definitely, must', '꼭']  
   ]
